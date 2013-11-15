@@ -1,54 +1,59 @@
   <div class="panel big-box">
     <span class="box_span">
-    <div class="panel little-boxes imgLiquidNoFill imgLiquid gitHub">
-      <%= link_to "#{image_tag("GitHub_Logo.png")}".html_safe, "https://github.com/thestereoscopics/" %>
-    </div></span>
+      <div class="panel little-boxes imgLiquidNoFill imgLiquid gitHub">
+        <%= link_to "#{image_tag("GitHub_Logo.png")}".html_safe, "https://github.com/thestereoscopics/" %>
+      </div>
+    </span>
     <span class="box_span">
-    <div class="panel little-boxes imgLiquidNoFill imgLiquid stackOverflow">
-      <%= link_to "#{image_tag("stackoverflow.jpg")}".html_safe, "http://stackoverflow.com/users/2055908/jeremys/" %>
-    </div></span>
+      <div class="panel little-boxes imgLiquidNoFill imgLiquid stackOverflow">
+        <%= link_to "#{image_tag("stackoverflow.jpg")}".html_safe, "http://stackoverflow.com/users/2055908/jeremys/" %>
+      </div>
+    </span>
     <span class="box_span">
-    <div class="panel little-boxes imgLiquidFill imgLiquid linkedIn">
-      <%= link_to "#{image_tag("linkedin.png")}".html_safe, "http://www.linkedin.com/pub/jeremy-sell/71/466/bb5/" %>
-    </div></span>
+      <div class="panel little-boxes imgLiquidFill imgLiquid linkedIn">
+        <%= link_to "#{image_tag("linkedin.png")}".html_safe, "http://www.linkedin.com/pub/jeremy-sell/71/466/bb5/" %>
+      </div>
+    </span>
     <span class="box_span">
-    <a href="#", data-reveal-id="hobby-modal">
-    <div class="panel little-boxes imgLiquidFill imgLiquid photo-box">
-      <%= image_tag("sunset_lake.jpg").html_safe %>
-    </div></span></a>
+      <a href="#", data-reveal-id="hobby-modal">
+        <div class="panel little-boxes imgLiquidFill imgLiquid photo-box">
+          <%= image_tag("sunset_lake.jpg").html_safe %>
+        </div>
+      </a>
+    </span>
     <span class="box_span">
-    <div class="panel little-boxes" id="empty-box">
-      <p class="name">Jeremy Sell</p><p>Web Developer Extrordinaire</p>
-    </div></span>
+      <div class="panel little-boxes no-hover" id="empty-box">
+        <div id="name-box">
+          <p class="name">Jeremy Sell<br/>
+          Web Developer<br/>
+          Hover or click on a tile!</p>
+        </div>
+      </div>
+    </span>
     <span class="box_span">
-    <a href="#", data-reveal-id="resume-modal">
-    <div class="panel little-boxes imgLiquidFill imgLiquid resume-box">
-      <%= image_tag("preacher.jpg").html_safe %>
-    </div></span></a>
+      <a href="#", data-reveal-id="resume-modal">
+        <div class="panel little-boxes imgLiquidFill imgLiquid resume-box">
+          <%= image_tag("preacher.jpg").html_safe %>
+        </div>
+      </a>
+    </span>
     <span class="box_span">
-    <a href="http://grocer-ease.herokuapp.com" class="linkie"><div class="panel little-boxes imgLiquidFill imgLiquid">
-      <%= link_to "#{image_tag("GrocerEase.png")}".html_safe, "http://grocer-ease.herokuapp.com" %>
-    </div></a></span>
+      <a href="http://grocer-ease.herokuapp.com" class="linkie">
+        <div class="panel little-boxes imgLiquidFill imgLiquid grocer-ease">
+          <%= link_to "#{image_tag("GrocerEase.png")}".html_safe, "http://grocer-ease.herokuapp.com" %>
+        </div>
+      </a>
+    </span>
     <span class="box_span">
-    <a href="http://mcflashy.herokuapp.com/" class="linkie"><div class="panel little-boxes imgLiquidFill imgLiquid">
-      <%= link_to "#{image_tag("getCarded.png")}".html_safe %>
-    </div></a></span>
+      <a href="http://mcflashy.herokuapp.com/" class="linkie">
+        <div class="panel little-boxes imgLiquidFill imgLiquid get-carded">
+          <%= link_to "#{image_tag("getCarded.png")}".html_safe %>
+        </div>
+      </a>
+    </span>
     <span class="box_span">
-    <div class="panel little-boxes imgLiquidNoFill imgLiquid email">
-      <%= link_to "#{image_tag("email.png")}".html_safe, "mailto:thestereoscpoics@gmail.com" %>
-    </div></span>
+      <div class="panel little-boxes imgLiquidNoFill imgLiquid email">
+        <%= link_to "#{image_tag("email.png")}".html_safe, "mailto:thestereoscpoics@gmail.com" %>
+      </div>
+    </span>
   <div>
-
-<!-- hobby modal -->
-
-<div id="hobby-modal" class="reveal-modal">
-  <a class="close-reveal-modal">&#215;</a>
-  <%= render partial: 'home/hobby_slider' %>
-</div>
-
-<!-- resume modal -->
-
-<div id="resume-modal" class="reveal-modal">
-  <a class="close-reveal-modal">&#215;</a>
-  <%= render partial: 'home/resume' %>
-</div>

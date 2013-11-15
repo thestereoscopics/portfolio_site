@@ -7,10 +7,15 @@
   height: 602px;
 }
 
-.name {
+.top-nav {
+  padding-top: 75px;
+}
+
+.name, #hover-message, .name-box {
   text-align: center;
   font-family: "Roboto Slab", serif;
   font-weight: 100;
+  padding-top: 60px;
 }
 
 .name a:hover {
@@ -54,16 +59,28 @@ img {
   padding: 0;
 }
 
+.no-hover {
+  opacity: 1;
+}
+
 #footer {
   padding-top: 40px;
   text-align: center;
 }
 
 #resume-modal, #hobby-modal {
-  width: 605px;
-  height: 500px;
-  background-color: blue;
+  width: 602px;
+  height: 410px;
+  background-color: black;
+  padding: 3px;
   margin-left: -21%;
+  position: fixed;
+}
+
+.orbit-caption {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  opacity: 0.5;
 }
 
 .hobby {
@@ -79,3 +96,10 @@ img {
 .fa-heart {
   color: red;
 }
+
+.orbit-bullets {
+  display: none;
+}
+
+// resume css
+
