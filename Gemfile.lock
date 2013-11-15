@@ -73,6 +73,7 @@ GEM
     mini_portile (0.5.2)
     minitest (4.7.5)
     multi_json (1.8.2)
+    newrelic_rpm (3.6.9.171)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     polyglot (0.3.3)
@@ -139,6 +140,7 @@ DEPENDENCIES
   font-awesome-less
   foundation_rails_helper
   jbuilder (~> 1.2)
+  newrelic_rpm
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
   sdoc

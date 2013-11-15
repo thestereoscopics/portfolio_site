@@ -9,6 +9,7 @@ gem 'feedzirra'
 gem 'zurb-foundation'
 gem 'foundation_rails_helper'
 gem 'font-awesome-less'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'better_errors'

@@ -22,7 +22,7 @@ $(document).ready(function() {
   var hobbies_message = "<p id='hover-message'>Two of my Favorite Hobbies Together:<br/> \
     Photography & Travel</p>"
 
-  var resume_message = "<p id='hover-message'>A Quick Look at my Resume</p>"
+  var resume_message = "<p id='hover-message'>A Little About Myself</p>"
 
   var grocer_message = "<p id='hover-message'>Visit Grocer Ease!<br/>Helping Solve the Problem of<br/>Storing Your Recipes</p>"
 

@@ -68,12 +68,12 @@ img {
   text-align: center;
 }
 
-#resume-modal, #hobby-modal {
-  width: 602px;
-  height: 410px;
+#resume-modal, #hobby-modal, #technologies-modal {
+  width: 802px;
+  height: 510px;
   background-color: black;
   padding: 3px;
-  margin-left: -21%;
+  margin-left: -27.5%;
   position: fixed;
 }
 
@@ -84,8 +84,8 @@ img {
 }
 
 .hobby {
-  width: 600px;
-  height: 400px;
+  width: 800px;
+  height: 500px;
 }
 
 #layout-box {
@@ -103,3 +103,69 @@ img {
 
 // resume css
 
+article {
+  font-size: 0.9em;
+}
+
+h1, h4, article {
+  color: white;
+}
+
+aside {
+  float: left;
+  padding-left: 5%;
+}
+
+aside, .csulb-group {
+  padding-top: 30px;
+}
+
+.date {
+  float: right;
+}
+
+article {
+  float: right;
+  line-height: initial;
+}
+
+.csulb-group {
+  padding-right: 83px;
+}
+
+.bootcamp-group {
+  padding-right: 167px;
+}
+
+.ccsf-group {
+  padding-right: 198px;
+}
+
+.linux-group {
+  padding-right: 33px;
+}
+
+.skill-group {
+  padding-top: 27px;
+  padding-right: 139px;
+}
+
+.tiny {
+  float: left;
+  margin-left: 5%;
+}
+.skill-header {
+  color: #2ba6cb;
+}
+
+#key-skills {
+  margin-top: 50px;
+}
+
+.technologies {
+  line-height: 170%;
+}
+
+.explanation {
+  line-height: 135%;
+}
