@@ -13,13 +13,13 @@ $(document).ready(function() {
       Hover or click on a tile!</p> \
       </div>';
 
-  var github_message = "<p id='hover-message'>View my Projects on Github</p>"
+  var github_message = "<p id='hover-message'>View my Projects on<br/> Github</p>"
 
-  var stack_message = "<p id='hover-message'>Visit my Stackoverflow Profile</p>"
+  var stack_message = "<p id='hover-message'>Visit my <br/>Stackoverflow Profile</p>"
 
-  var linkedin_message = "<p id='hover-message'>Connect with me on LinkedIn</p>"
+  var linkedin_message = "<p id='hover-message'>Connect with me on <br/>LinkedIn</p>"
 
-  var hobbies_message = "<p id='hover-message'>Two of my Favorite Hobbies Together:<br/> \
+  var hobbies_message = "<p id='hover-message'>Two of my Favorite Hobbies:<br/> \
     Photography & Travel</p>"
 
   var resume_message = "<p id='hover-message'>A Little About Myself</p>"
