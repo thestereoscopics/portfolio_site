@@ -10,6 +10,8 @@ gem 'foundation_rails_helper'
 gem 'font-awesome-less'
 gem 'newrelic_rpm'
 gem 'pg'
+gem 'rails_12factor'
+
 
 group :development, :test do
   gem 'better_errors'

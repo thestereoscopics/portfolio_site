@@ -24,9 +24,9 @@ $(document).ready(function() {
 
   var resume_message = "<p id='hover-message'>A Little About Myself</p>"
 
-  var grocer_message = "<p id='hover-message'>Visit Grocer Ease!<br/>Helping Solve the Problem of<br/>Storing Your Recipes</p>"
+  var grocer_message = "<p id='hover-message'>Visit Grocer Ease!<br/>Helping Solve the Problem of<br/>Storing Your Recipes<br/><span class='collaborate'>(Collaborated On)<span></p>"
 
-  var get_carded_message = "<p id='hover-message'>Visit Get Carded!<br/>Making Flashcards</br>Just Got Simple</p>"
+  var get_carded_message = "<p id='hover-message'>Visit my Project: Get Carded!<br/>Making Flashcards</br>Just Got Simple<br/><span class='collaborate'>(Collaborated On)<span></p>"
 
   var email_message = "<p id='hover-message'>Want to Work on a Project?<br/>Or Looking for a Dev?</br>Email me.</p>"
 

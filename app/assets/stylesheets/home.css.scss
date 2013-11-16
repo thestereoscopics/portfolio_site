@@ -73,7 +73,7 @@ img {
   height: 510px;
   background-color: black;
   padding: 3px;
-  margin-left: -27.5%;
+  margin-left: -30.5%;
   position: fixed;
 }
 
@@ -101,6 +101,10 @@ img {
   display: none;
 }
 
+.collaborate {
+  font-size: 75%;
+}
+
 // resume css
 
 article {
@@ -116,43 +120,39 @@ aside {
   padding-left: 5%;
 }
 
-aside, .csulb-group {
-  padding-top: 30px;
-}
-
 .date {
   float: right;
+  padding-right: 90px;
 }
 
 article {
   float: right;
-  line-height: initial;
 }
 
 .csulb-group {
-  padding-right: 83px;
+  width: 582px;
 }
 
 .bootcamp-group {
-  padding-right: 167px;
+  width: 582px;
 }
 
 .ccsf-group {
-  padding-right: 198px;
+  width: 582px;
 }
 
 .linux-group {
-  padding-right: 33px;
+  width: 582px;
 }
 
 .skill-group {
-  padding-top: 27px;
   padding-right: 139px;
 }
 
 .tiny {
-  float: left;
-  margin-left: 5%;
+  position: absolute;
+  bottom: 2%;
+  right: 8%;
 }
 .skill-header {
   color: #2ba6cb;
