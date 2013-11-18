@@ -7,6 +7,23 @@ $(document).ready(function() {
         verticalAlign: "50%"
     });
 
+  $(".photo-box").on('click', function() {
+    PositionModal("#hobby-modal");
+  });
+
+  $(".resume-box").on('click', function() {
+    PositionModal("#resume-modal");
+    PositionModal("#technologies-modal");
+  });
+  
+
+  function PositionModal(taget_modal) {
+    var modal_width = 802;
+    var window_width = window.innerWidth;
+    var modal_position = ((window_width - modal_width) / 2);
+    $(taget_modal).css("margin-left", modal_position)
+  }
+
   var name_html='<div id="name-box"> \
       <p class="name">Jeremy Sell<br/> \
       Web Developer<br/> \
