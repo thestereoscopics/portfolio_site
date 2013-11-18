@@ -12,5 +12,6 @@
 //
 //= require imgLiquid-min.js
 //= require foundation
+//= portfolio
 //= require_tree .
 $(function(){ $(document).foundation(); });
